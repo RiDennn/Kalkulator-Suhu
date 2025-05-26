@@ -96,7 +96,7 @@ footer {
 }
 
 .bg-lightseagreen {
-    background-color: lightseagreen;
+    background-color: rgb(36, 189, 181);
 }
 
 .bg-lightcoral {
@@ -104,7 +104,19 @@ footer {
 }
 
 .bg-lightblue {
-    background-color: lightblue;
+    background-color: rgb(90, 207, 246);
 }
 
-/* Global Usage */
+@media (max-width: 768px) {
+    .Head-Kiri {
+        font-size: 8px;
+    }
+
+    .Head-Kanan {
+        font-size: 12px;
+    }
+
+    a {
+        margin : 3px;
+    }
+}
