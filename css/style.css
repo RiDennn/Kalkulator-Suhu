@@ -109,11 +109,11 @@ footer {
 
 @media (max-width: 768px) {
     .Head-Kiri {
-        font-size: 8px;
+        font-size: 7px;
     }
 
     .Head-Kanan {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     a {
