@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Konversi Suhu</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="Head-Kiri">
+            <h1> Kalkulator Suhu </h1>
+        </div>
+        <div class="Head-Kanan">
+            <nav>
+            <a href="#Konversi"> Konversi </a>
+            <a href="#Cara-Konversi"> Cara Konversi </a>
+            <a href="#Sejarah"> Sejarah</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="gambar">
+             <img src="https://live.staticflickr.com/65535/54546334133_e93975e12d_m.jpg">
+        </div>
+
+        <section class="padding-medium" id="Konversi">
+            <p>Masukkan suhu derajat Celcius (&deg;C) ke kotak dibawah...</p>
+        </section>
+
+        <form class="padding-medium">
+            <div>
+                <label for="input-suhu" id="label-input">Celcius (°C):</label>
+                <input type="number" id="input-suhu" name="suhu" />
+            </div>
+            <div>
+                <button type="button" id="btn-konversi" class="bg-lightseagreen">Konversi</button>
+                <button type="button" id="btn-reset" class="bg-lightcoral">Reset</button>
+                <button type="button" id="btn-reverse" class="bg-lightblue">Reverse</button>
+            </div>
+        </form>
+
+        <section class="padding-medium">
+            <div>
+                <label for="hasil-suhu">Fahrenheit (&deg;F):</label>
+                <textarea id="hasil-suhu" readonly></textarea>
+            </div>
+        </section>
+
+        <section class="padding-medium">
+            <div>
+                <label for="detail-suhu">Penjelasan:</label>
+                <textarea id="detail-suhu" readonly></textarea>
+            </div>
+        </section>
+
+        <section class="padding-medium" id="Cara-Konversi">
+    
+                <h2>Cara Konversi Celcius (&deg;C) ke Fahrenheit (&deg;F)</h2>
+            <hr />
+
+            <div>
+                <p>Introduction dari rumus konversi suhu...</p>
+                <p class="rumus-content">S<sub>(&deg;F)</sub> = (S<sub>(&deg;C)</sub> x 9/5) + 32</p>
+                <p>Atau</p>
+                <p class="rumus-content">S<sub>(&deg;F)</sub> = (S<sub>(&deg;C)</sub> x 1.8) + 32</p>
+            </div>
+        </section>
+
+        <section class="padding-high" id="Sejarah">
+          <h2> Sejarah</h2>
+          <hr />
+          <div class="sejarah">
+            <p> Skala Celsius ditemukan oleh Anders Celsius, seorang astronom dan ilmuwan asal Swedia, pada tahun 1742. Menariknya, ketika pertama kali diperkenalkan, skala ini memiliki susunan yang terbalik dari yang kita kenal sekarang: 0°C ditetapkan sebagai titik didih air, dan 100°C sebagai titik beku air. Setelah kematian Celsius, para ilmuwan lain memutuskan untuk membalik urutan ini agar lebih sesuai dengan logika sehari-hari—yakni suhu rendah (membeku) berada di angka yang lebih kecil dan suhu tinggi (mendidih) di angka yang lebih besar. Dalam bentuknya yang sekarang, 0°C adalah titik beku air, dan 100°C adalah titik didih air pada tekanan atmosfer normal. Karena menggunakan sistem desimal, skala Celsius lebih mudah digunakan dalam pengukuran ilmiah dan kehidupan sehari-hari. Saat ini, Celsius menjadi skala suhu standar di hampir seluruh dunia, terutama di negara-negara yang menggunakan sistem metrik.</p>
+            <p> Skala Fahrenheit ditemukan lebih dulu, yaitu pada tahun 1724 oleh Daniel Gabriel Fahrenheit, seorang ilmuwan asal Jerman. Fahrenheit merancang skalanya berdasarkan tiga titik referensi: 0°F sebagai suhu campuran air, es, dan garam (yang ia anggap sebagai suhu terendah yang bisa dicapai di laboratoriumnya), 32°F sebagai titik beku air, dan 96°F sebagai suhu tubuh manusia (yang kemudian dikoreksi menjadi sekitar 98,6°F). Tujuan utama Fahrenheit adalah menciptakan skala suhu yang bebas dari angka negatif dalam kehidupan sehari-hari serta cukup sensitif untuk pengukuran yang presisi. Meskipun kini banyak negara telah beralih ke skala Celsius, Fahrenheit masih digunakan di Amerika Serikat dan beberapa negara lainnya, terutama dalam konteks cuaca, rumah tangga, dan kesehatan.</p>
+          </div>
+          <hr>
+          </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Richie Denny Sumantri </p>
+    </footer>
+
+    <script src="js\javascript.js"> </script>
+</body>
+
+</html>
