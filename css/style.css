@@ -121,7 +121,7 @@ footer {
 
     h1 {
         font-size: 24px;
-        margin-bottom: 12px;
+        margin-bottom: 8px;
     }
 
     nav {
@@ -130,6 +130,7 @@ footer {
     }
 
     nav a {
-        padding-right: 5px;
+        padding-right: 0px;
     }
 }
+
